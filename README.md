@@ -5,7 +5,6 @@ A Python source-to-image application for emitting to an Apache Kafka topic
 
 ```
 oc new-app centos/python-36-centos7~https://github.com/snandakumar87/eventEmitterCreditTransactions \
-  --context-dir event-emitter \
   -e KAFKA_BROKERS=kafka:9092 \
   -e KAFKA_TOPIC=events \
   -e RATE=1 \
