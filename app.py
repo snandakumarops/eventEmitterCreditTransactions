@@ -33,7 +33,7 @@ def generate_event():
         'transactionNumber': str(random.randint(100000000, 9999999999)),
         'creditCardNumber': CREDIT_CARD_NUMBER[random.randint(0, 3)],
         'amount': str(random.randint(1000, 9999)),
-        'timestamp': "1529502000000",
+        'timestamp': "1530264660000",
         'terminal': TERMINAL[random.randint(0, 3)]
 
     }
