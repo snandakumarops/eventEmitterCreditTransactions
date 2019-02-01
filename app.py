@@ -75,11 +75,11 @@ if __name__ == '__main__':
     parser.add_argument(
             '--brokers',
             help='The bootstrap servers, env variable KAFKA_BROKERS',
-            default='localhost:9092')
+            default='kafka:9092')
     parser.add_argument(
             '--topic',
             help='Topic to publish to, env variable KAFKA_TOPIC',
-            default='tenone-test')
+            default='events')
     parser.add_argument(
             '--rate',
             type=int,
