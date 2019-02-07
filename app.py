@@ -52,7 +52,7 @@ def main(args):
     while True:
         producer.send(args.topic, json.dumps(generate_event()).encode())
         logging.info(generate_event())
-        time.sleep(3.0)
+        time.sleep(30.0)
     logging.info('end sending events')
 
 
